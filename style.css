@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Mukta', sans-serif;
+    background: linear-gradient(to left, #4f58b6, #1c52c8);
+    height: 100vh;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.container img {
+    width: 10%;
+    position: absolute;
+    z-index: -1;
+    top: 25%;
+    left: 50%;
+    object-fit: contain;
+}
+
+.container img:nth-child(2) {
+    top: 20%;
+    left: 20%;
+}
+
+.container img:nth-child(3) {
+    top: 70%;
+    left: 30%;
+}
+
+.container img:nth-child(4) {
+    top: 65%;
+    left: 50%;
+}
+
+.container img:last-child {
+    top: 15%;
+    left: 70%
+}
+
+h1 {
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 150px;
+    z-index: 1;
+    letter-spacing: 15px;
+    text-align: center;
+    line-height: 150px;
+
+}
+
+span {
+    font-size: 120px;
+
+}
