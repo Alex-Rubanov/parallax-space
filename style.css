@@ -21,10 +21,10 @@ body {
 }
 
 .container img {
-    width: 10%;
+    width: 20%;
     position: absolute;
     z-index: -1;
-    top: 25%;
+    top: 10%;
     left: 50%;
     object-fit: contain;
 }
@@ -35,17 +35,17 @@ body {
 }
 
 .container img:nth-child(3) {
-    top: 70%;
-    left: 30%;
+    top: 80%;
+    left: 20%;
 }
 
 .container img:nth-child(4) {
     top: 65%;
-    left: 50%;
+    left: 60%;
 }
 
 .container img:last-child {
-    top: 15%;
+    top: 10%;
     left: 70%
 }
 
